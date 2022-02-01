@@ -1,0 +1,50 @@
+.heroContainer {
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    width: 90%;
+    display: flex;
+}
+
+.infoSide {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.infoSideTitle {
+	font-size: 46px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.infoSideText {
+	text-align: center;
+	margin-bottom: 1.5em;
+	overflow-wrap: break-word;
+	color: #929292;
+	font-size: 18px;
+}
+
+.infoSideContract {
+	text-align: center;
+	margin-bottom: 1.5em;
+	overflow-wrap: break-word;
+	color: #f1b90a;
+	font-size: 18px;
+}
+
+.infoSideSlippage {
+	text-align: center;
+	margin-bottom: 1.5em;
+	overflow-wrap: break-word;
+	color: #f1b90a;
+	font-size: 18px;
+}
+
+.sideImage {
+	width: 720px;
+    aspect-ratio: auto 1997 / 1370;
+}

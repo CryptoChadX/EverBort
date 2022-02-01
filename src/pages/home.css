@@ -1,0 +1,54 @@
+.App {
+  padding: 0 0;
+}
+
+.buttonSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.buttonSectionWrapper {
+  margin-top: 80px;
+  height: 200px;
+}
+
+.buttonStyle {
+  font-family: inherit;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 12px;
+  letter-spacing: 0.09em;
+  font-size: 12px;
+  border-radius: 30px;
+  overflow: hidden;
+  background: #f0b90b;
+  color: #fff;
+  padding: 1.3em 2.7em;
+  margin-right: 60px;
+}
+
+.partnerSection {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partnerSection2 {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partnerImg2 {
+  width: 80%;
+}
+
+.highlight {
+  color: #f0b90b;;
+}

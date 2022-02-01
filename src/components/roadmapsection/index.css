@@ -1,0 +1,79 @@
+@font-face{font-family:'lqd-essentials';src:url("https://everearn.net/wp-content/themes/hub/assets/vendors/liquid-icon/lqd-essentials/fonts/lqd-essentials.woff2") format("woff2");
+	font-weight:normal;
+	font-style:normal;
+	font-display: 
+	swap;
+}
+.lqd-icn-ess{display:inline-block;font:normal normal normal 1em/1 'lqd-essentials';speak:none;text-transform:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.icon-ion-ios-checkmark:after{content:"\ea1b"}
+
+
+.bar {
+	opacity: .6;
+	display: inline-block;
+    width: 15px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-self: flex-start;
+    border-radius: 50em;
+    
+}
+
+.bar:before {
+	width: 100%;
+    height: 15px;
+    border-radius: 50em;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    background: #f0b90b;
+    transition: transform .45s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.bar:after {
+	width: 2px;
+    left: 6px;
+    bottom: -3px;
+    transform-origin: top center;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    background: #f0b90b;
+    transition: transform .45s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.bar2 {
+	opacity: .6;
+	display: inline-block;
+    width: 15px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-self: flex-start;
+    border-radius: 50em;
+    
+}
+
+.bar2:before {
+	width: 100%;
+    height: 15px;
+    border-radius: 50em;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    background: #f0b90b;
+    transition: transform .45s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+
+
+.infow {
+	opacity: .6;
+}
+
